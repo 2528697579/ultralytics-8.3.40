@@ -1,0 +1,8 @@
+path: C:\Users\25286\Desktop\ultralytics-8.3.40\datasets\Unified-DataSet  # 数据集的根目录
+
+train: train/images  # 训练集相对于 path 的子目录
+val: val/images      # 验证集相对于 path 的子目录
+
+
+nc: 3  # 类别数量，例如：helmet, without_helmet, two_wheeler
+names: ['helmet', 'without_helmet', 'two_wheeler']  # 类别名称列表
